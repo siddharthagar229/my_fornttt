@@ -1,0 +1,477 @@
+/*                     =========================           ==================        header css starts         ===============================                      */
+
+
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.headerIcon {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: #666;
+}
+
+.headerText {
+    margin-left: 5px;
+}
+/*                     =========================  =================================         header css ends  ===========================================          */
+
+
+
+
+
+
+
+
+.mainStyle {
+  
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+.formStyle {
+   
+    flex: 1;
+    padding: 20px;
+}
+
+.calendarSelector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendarIcon {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+.headSelectDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.suvHeadDiv {
+    font-size: 14px;
+    color: darkgray;
+}
+
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none; 
+    width: 100%;
+    -moz-appearance: none; 
+    
+    position: relative;
+    outline: none;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select::after {
+    content: ''; 
+    position: absolute;
+    right: -68px;
+    top: -45%;
+    
+    pointer-events: none; 
+    font-size: 12px; 
+    color: #000;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>'); /* Arrow down icon */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:20px;
+    height:20px;
+}
+
+.selectStyle {
+    padding: 0px 5px 5px 0px;
+   
+    border: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.inputStyle {
+  
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid #ccc;
+}
+.inputStyle::-webkit-input-placeholder { 
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+.dateTimeContainer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dateColumn {
+    margin-right: 20px;
+}
+
+.dateBox {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 8px;
+}
+
+
+.dateNumber {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dateMonth {
+    font-size: 14px;
+    
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: darkgrey;
+    padding: 5px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.timeColumn {
+    flex: 1;
+}
+
+.timeRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.timeLabel {
+    width: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.dateTimeInput {
+    flex: 1;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.timeZone {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.multiSession {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #1a73e8;
+    gap:4px;
+}
+
+.locationInput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.locationInputField {
+    flex: 1;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.eventOptions {
+    margin-top: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.optionsTitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.optionRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.optionRowVisiblity {
+    
+    margin-top: 15px;
+}
+
+.optionValue {
+    color: #666;
+}
+
+
+
+
+
+
+
+
+/*  ==================================   CSS for   switch button in UI    ================================*/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
+
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+
+input:checked+.slider {
+    background-color: #4CAF50;
+}
+
+
+input:checked+.slider:before {
+    transform: translateX(24px);
+}
+
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*  ==================================   CSS for   switch button in UI    ENDS   ================================*/
+
+
+
+
+
+
+
+
+
+
+.createButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.preview {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 1px solid #eee;
+}
+
+
+
+
+
+/*  ======================  CSS for image upload section   ==================================================== */
+
+.imageContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.previewContent {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #FFD700, #FF4500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textStyle {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.imageStyle {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;  
+}
+
+/*  ======================  CSS for image upload section       ENDS      ==================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.previewTitle {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.themeSelector {
+    margin-top: 20px;
+}
+
+.themeTitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.themeOptions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.themeButton {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.selectedTheme {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 2px #1a73e8;
+}
+
+.colorSelector {
+    margin-bottom: 10px;
+}
+
+.colorLabel {
+    margin-right: 10px;
+}
+
+.colorSelect {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.typefaceSelector {
+    margin-bottom: 10px;
+}
+
+.typefaceLabel {
+    margin-right: 10px;
+}
+
+.typefaceSelect {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}

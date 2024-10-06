@@ -1,0 +1,55 @@
+/* ===================================================================  EventList  CSS ================================================================================ */
+
+.linkDiv {
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+
+.listContainer {
+    font-family: Arial, sans-serif;
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 43px;
+    background-color: #f5f7fa;
+}
+
+
+
+
+.listHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titleStyle {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tabsStyle {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: white;
+}
+
+
+
+.eventList {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+
+/* ===================================================================  EventList  CSS  Ends ================================================================================ */
